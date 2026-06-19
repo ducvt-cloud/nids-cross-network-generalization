@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+
+# Models
+torch>=2.0          # MLP, CORAL, DANN, few-shot
+lightgbm>=4.0       # gradient-boosted baseline + large-scale confirmation
+
+# Archive handling for the NF-ToN-IoT-v2 .rar (one of these is enough;
+# the scripts also try system 'unrar' / 'p7zip' automatically)
+patool>=2.0
+# rarfile>=4.0
